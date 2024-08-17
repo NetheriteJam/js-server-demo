@@ -1,0 +1,20 @@
+{
+  "name": "js-server-demo",
+  "version": "1.0.0",
+  "description": "NodeJS server demo built with Webpack and Express.",
+  "main": "node src/client/client.js",
+  "scripts": {
+    "dev": "node src/server/server.js"
+  },
+  "author": "NetheriteJam",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.93.0",
+    "webpack-dev-middleware": "^7.3.0"
+  }
+}
